@@ -1,0 +1,109 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SCP BUTTFUCKER 6000 MADE BY VETERAN", "DarkTheme")
+
+--MAIN SHIT
+
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("MAIN HACKS I GUESS LOOL")
+MainSection:NewDropdown("GOD MODE (cannot be undone)", "TO OP LOL", {"GODE MODE"}, function(v)
+
+while 1 + 1 == 2 do
+    wait(0.01)
+local A_1 = "Heal"
+local Event = game:GetService("ReplicatedStorage").Event
+  Event:FireServer(A_1)
+  end
+end)
+
+    
+    
+    
+       MainSection:NewDropdown("WALK SOUND TROLL (cannot be stopped)", "CAREFUL MIGHT LAG", {"ANNOYING RUN SOUND LOOOL"}, function(v)
+ while 1 + 1 == 2 do
+    wait(0.001)
+
+
+
+           local A_1 = "StepSFX"
+                     local Event = game:GetService("ReplicatedStorage").Event
+            Event:FireServer(A_1)
+
+
+
+ end
+   end)
+
+
+
+    
+
+
+local Player = Window:NewTab("Credits")
+local PlayerSection = Player:NewSection("Made By Veteran#0714 (main) (could change)")
+local PlayerSection = Player:NewSection("Made By VeteranAlt#1341 (alt)")
+local PlayerSection = Player:NewSection("Made By VeteranKiller#1644 (alt)")
+local PlayerSection = Player:NewSection("Made By Veteran2#9639 (alt)")
+ local PlayerSection = Player:NewSection("I'll try to update if it gets patched <3")
+
+    MainSection:NewKeybind("Toggle GUI", "Toggles GUI", Enum.KeyCode.J, function()
+Library:ToggleUI()
+    end)
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SCP BUTTFUCKER 6000 MADE BY VETERAN", "DarkTheme")
+
+--MAIN SHIT
+
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("MAIN HACKS I GUESS LOOL")
+MainSection:NewDropdown("GOD MODE (cannot be undone)", "TO OP LOL", {"GODE MODE"}, function(v)
+
+while 1 + 1 == 2 do
+    wait(0.01)
+local A_1 = "Heal"
+local Event = game:GetService("ReplicatedStorage").Event
+  Event:FireServer(A_1)
+  end
+end)
+
+    
+    
+    
+       MainSection:NewDropdown("WALK SOUND TROLL (cannot be stopped)", "CAREFUL MIGHT LAG", {"ANNOYING RUN SOUND LOOOL"}, function(v)
+ while 1 + 1 == 2 do
+    wait(0.001)
+
+
+
+           local A_1 = "StepSFX"
+                     local Event = game:GetService("ReplicatedStorage").Event
+            Event:FireServer(A_1)
+
+
+
+ end
+   end)
+
+
+
+    
+
+
+local Player = Window:NewTab("Credits")
+local PlayerSection = Player:NewSection("Made By Veteran#7824 (main) (could change)")
+local PlayerSection = Player:NewSection("Made By VeteranAlt#1341 (alt)")
+local PlayerSection = Player:NewSection("Made By VeteranKiller#1644 (alt)")
+local PlayerSection = Player:NewSection("Made By Veteran2#9639 (alt)")
+ local PlayerSection = Player:NewSection("I'll try to update if it gets patched <3")
+
+    MainSection:NewKeybind("Toggle GUI", "Toggles GUI", Enum.KeyCode.J, function()
+Library:ToggleUI()
+    end)
+
+
+     
+    
