@@ -89,8 +89,23 @@ end)
    end)
 
 
+MainSection:NewDropdown("GOD MODE V2 (cannot be undone)", "TO OP LOL", {"GODE MODE V2"}, function(v)
 
-    
+local mt = getrawmetatable(game);
+make_writeable(mt);
+local old_index = mt.__index;
+
+mt.__index = function(a, b)
+ if tostring(a) == "UserHealth" then
+     if tostring(b) == "Value" then
+        return 99999999999;
+
+
+        end
+    end
+    return old_index(a, b);
+end
+end)
 
 
 local Player = Window:NewTab("Credits")
